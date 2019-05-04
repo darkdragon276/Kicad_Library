@@ -1,4 +1,4 @@
-(module QFN-48-1EP_7x7mm_P0.5mm (layer F.Cu) (tedit 5CB30844)
+(module QFN-48-1EP_7x7mm_P0.5mm (layer F.Cu) (tedit 5CCCF0FC)
   (descr "UK Package; 48-Lead Plastic QFN (7mm x 7mm); (see Linear Technology QFN_48_05-08-1704.pdf)")
   (tags "QFN 0.5")
   (attr smd)
@@ -157,9 +157,9 @@
     (solder_paste_margin_ratio -0.2))
   (pad 49 smd rect (at 0.9 0.9) (size 2.4 2.4) (layers F.Cu F.Paste F.Mask)
     (solder_paste_margin_ratio -0.2))
-  (model ${KIPRJMOD}/Kicad-Library/3D/QFN-48-1EP_7x7mm_P0.5mm.wrl
-    (offset (xyz 3.5 0 -2))
+  (model ${KIPRJMOD}/Kicad_Library/3D/QFN-48-1EP_7x7mm_P0.5mm.wrl
+    (offset (xyz 3.5 0 4))
     (scale (xyz 0.4 1 0.4))
-    (rotate (xyz 90 0 0))
+    (rotate (xyz -90 0 0))
   )
 )
